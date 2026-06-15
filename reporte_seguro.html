@@ -1,0 +1,62 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Reporte Oficial de Inventario</title>
+        <style>
+            body { font-family: 'Segoe UI', Arial, sans-serif; margin: 40px; color: #333; background-color: #fff; }
+            .header { text-align: center; border-bottom: 3px solid #1f2937; padding-bottom: 10px; margin-bottom: 30px; }
+            .header h1 { margin: 0; font-size: 24px; color: #1f2937; }
+            .header p { margin: 5px 0 0 0; color: #6b7280; font-size: 14px; }
+            table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 14px; }
+            th { background-color: #1f2937; color: white; padding: 12px; text-align: left; }
+            td { padding: 12px; border-bottom: 1px solid #e5e7eb; }
+            tr:nth-child(even) { background-color: #f9fafb; }
+            .footer { margin-top: 5px; text-align: center; font-size: 11px; color: #9ca3af; border-top: 1px dashed #d1d5db; padding-top: 15px; position: fixed; bottom: 20px; width: 100%; }
+            .monto { font-weight: bold; text-align: right; }
+            .centro { text-align: center; }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>📋 REPORTE DE INVENTARIO Y CONTROL DE STOCK</h1>
+            <p>Documento Oficial Protegido - Sistema de Control de Márgenes</p>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre Lote</th>
+                    <th style="text-align: right;">Inversión Total</th>
+                    <th class="centro">Stock Disponible</th>
+                    <th style="text-align: right;">Costo Unitario</th>
+                    <th style="text-align: right;">Precio Sugerido (50%)</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>tenis nike</td>
+                    <td class="monto">$20,125.00</td>
+                    <td class="centro">34 pzas</td>
+                    <td class="monto">$591.91</td>
+                    <td class="monto">$1,183.82</td>
+                </tr>
+        
+            </tbody>
+        </table>
+        
+        <div class="footer">
+            Este documento representa los estados reales de la base de datos SQL del negocio. Prohibida su alteración o falsificación.
+        </div>
+        
+        <script>
+            // Lanza el cuadro de diálogo de impresión nativo del sistema de forma inmediata
+            window.onload = function() {
+                window.print();
+            }
+        </script>
+    </body>
+    </html>
+    
