@@ -1,3 +1,4 @@
+[📄 Descargar Ficha Técnica en PDF](Ficha_Tecnica_SmartMargin_ERP.pdf)
 # 📊 Sistema de Control de Lotes, Márgenes y Stock
 
 Una aplicación de escritorio profesional e intuitiva diseñada para emprendedores y comerciantes de mayoreo. Permite calcular el costo real unitario de mercancía importada o comprada en lote, gestionando mermas, costos de envío y proyecciones de ganancias, además de incluir un módulo seguro de ventas y reportes listos para imprimir en PDF.
@@ -14,3 +15,5 @@ Una aplicación de escritorio profesional e intuitiva diseñada para emprendedor
 * **Tkinter** (Interfaz Gráfica)
 * **SQLite3** (Base de Datos Relacional)
 * **HTML5/CSS3** (Formato de impresión del reporte)
+
+[def]: Ficha_Tecnica_SmartMargin_ERP.pdf
